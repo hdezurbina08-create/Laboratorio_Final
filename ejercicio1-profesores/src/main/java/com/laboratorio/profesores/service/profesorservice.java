@@ -1,14 +1,12 @@
 package com.laboratorio.profesores.service;
 
-import com.laboratorio.profesores.dto.ProfesorDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Service
-public class ProfesorService {
+public class profesorservice {
 
     private final List<ProfesorDTO> profesores = new ArrayList<>();
     private Long idContador = 1L;

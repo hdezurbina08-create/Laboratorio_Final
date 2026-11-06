@@ -1,7 +1,5 @@
 package com.laboratorio.profesores.controller;
 
-import com.laboratorio.profesores.dto.ProfesorDTO;
-import com.laboratorio.profesores.service.ProfesorService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -12,14 +10,14 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/profesores")
-public class ProfesorController {
+public class profesorController {
 
     @Autowired
     private ProfesorService profesorService;
 
     // GET: Obtener todos los profesores
     @GetMapping
-    public ResponseEntity<List<ProfesorDTO>> listarTodos() {
+    public ResponseEntity<Object> listarTodos() {
         return ResponseEntity.ok(profesorService.listarTodos());
     }
 

@@ -1,4 +1,4 @@
-package com.laboratorio.Profesores;
+package com.laboratorio.profesores;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

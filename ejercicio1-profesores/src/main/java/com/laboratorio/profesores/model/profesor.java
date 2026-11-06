@@ -1,6 +1,6 @@
 package com.laboratorio.profesores.model;
 
-public class Profesor {
+public class profesor {
     private Long id;
     private String nombre;
     private String apellido;
@@ -8,9 +8,9 @@ public class Profesor {
     private String especialidad;
     private Boolean estado;
 
-    public Profesor() {}
+    public profesor() {}
 
-    public Profesor(Long id, String nombre, String apellido, String correo, String especialidad, Boolean estado) {
+    public profesor(Long id, String nombre, String apellido, String correo, String especialidad, Boolean estado) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
